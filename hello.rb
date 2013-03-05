@@ -3,7 +3,6 @@ require 'rubygems'
 require 'sinatra'
 
 get '/' do
-	sleep 0.1
  	erb :index
 end
 
